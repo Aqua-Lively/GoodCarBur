@@ -1,0 +1,183 @@
+body {
+   margin: 0;
+   font-family: 'Kanit', 'sans-serif';
+   color: black;
+   background-color: #fff; 
+}
+.header  {
+   position: sticky;
+   top: 0;
+
+   width: 100%;  
+   background-color: #2B2D42;
+   /* background: linear-gradient(45deg,#EF233C,  #2B2D42, #D90429); */
+   /* background-size: 300% 300%;
+   animation: gradient 10s ease infinite; */
+}
+
+@keyframes gradient {
+   0% {
+      background-position: 0 50%;
+   }
+   50% {
+      background-position: 100% 50%;
+   }
+   100% {
+      background-position: 0 50%;
+   }
+}
+.header__word {
+   -webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.header_canteiner {
+   justify-content: space-between;
+   color: #EDF2F4;
+   padding: 10px 50px;
+   font-weight: 500;
+   font-style: italic;
+   font-size: 30px;
+   display: flex;
+}
+.header__button {
+   color: white;
+   text-decoration: none;
+   user-select: none;
+   outline: none;
+}
+.header__box {
+   font-style: normal;
+   display: flex;
+   gap: 15px;
+   transition: background-color .3s;
+}
+.menu,.search {
+   text-decoration: none;
+   color: currentColor;
+}
+.menu:hover {
+   color: aqua;
+}
+.search:hover {
+   color: aqua;
+}
+.header__2 {
+   background: url(./png/Car5.jpg) no-repeat;
+   background-size: cover;
+   width: 100%;
+   height: 92vh;
+}
+.header__2__box{
+   color: #Fff;
+   text-transform: uppercase;
+   padding-top: 610px;
+   padding-left: 1160px;
+   font-size: 60px;
+   font-weight: 650;
+   /* font-style: italic; */
+   
+}
+.photos__1 {
+   background: url(./png/Car2.jpg) center;
+   width: 100%;
+   height: 91.5vh;
+}
+.photos__2 {
+   background: url(./png/Car1.jpg) center;
+   width: 100%;
+   height: 91.5vh;
+}
+
+.conteiner {
+   text-align: center;
+   padding: 20px;
+   padding-top: 50px;
+   
+}
+.box {
+   background-color: #fff;
+   border: 4px solid #2B2D42;
+   height: 270px;
+   max-width: 1200px;
+   margin: 30px auto;
+   text-align: left;
+   display: flex;
+   gap: 30px;
+   padding: 15px;
+   transition: background-color .3s;
+}
+.box:hover {
+   background-color: #2B2D42;
+   border: 4px solid #2B2D42;
+   color: #DCDCDC;
+}
+.button__1 {
+   text-decoration: none;
+   color: currentColor;
+}
+.button__2 {
+   text-decoration: none;
+   color: currentColor;
+}
+
+.min__box {
+   height: 100%;
+   width: 500px;
+}
+.min__2 {
+   width: 630px
+}
+.png  {
+   height: 100%;
+   width: 500px;
+}
+.min__min__box {
+   display: flex;
+}
+.box__header {
+   margin-top: 15px;
+   display: flex;
+   justify-content: space-between;
+}
+.date,.prise,.name__car {
+   padding: 2px;
+   font-style: italic;
+
+
+}
+.name__car {
+   font-weight: 500;
+   font-style: italic;
+   font-size: 25px;
+}
+.date {
+   font-size: 20px;
+   padding-top: 4px;
+   font-weight: bold;
+   right: 0px;
+   text-transform: uppercase;
+   font-weight: 700;
+   transition: background-color .3s;
+}
+.prise {
+   padding-top: 6px;
+   color: #fff;
+   background-color: #2B2D42;
+   border: 1px solid;
+   transition: background-color .3s;
+
+}
+.prise:hover {
+   color: #2B2D42;
+   background-color: #fff;
+   border: 1px solid #2B2D42;
+}
+.text {
+   margin-top: 30px;
+   text-align: justify;
+}
+
